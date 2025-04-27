@@ -21,7 +21,7 @@ logging.basicConfig(
 
 async def main():
     try:
-        bot = Bot(token="7936826476:AAFZfnZ8h2I2Ohd4hXgHmPjENLye1637264")  #токен
+        bot = Bot(token="your_token")  #токен
         dp = Dispatcher(storage=MemoryStorage())
 
         # Регистрация роутеров
